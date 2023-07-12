@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<body>
+    <form action="">
+        <head>FORMULARIO DE REGISTRO</head><BR></BR>
+        <div>
+            <label for="Nombre">Nombre</label>
+        
+            <input type="text" name="nombre" placeholder="Ingrese su nombre">
+        <label for="Apellidos">Apellidos</label>
+        <input type="text" name="apellido" placeholder="Ingrese sus apellidos">
+          <label for="Fecha Nac">Fecha de nacimiento</label>
+        <input type="date" name="" id="">  
+         <label for="Media Uni">Nota media de la Universidad</label>
+        <input type="number" name="" id="" placeholder="Nota media">    
+    </div>
+<br>
+        <div>
+            <label for="Introduzca su dirección">Introduzca su dirección</label>
+             <input type="text" name="Tipo de via" size="7" placeholder="Tipo de Via">
+            <input type="text" name="Nombre de la via" placeholder="Nombre de la via">
+            <input type="text" name="Código postal" size="2" placeholder="C.P.">
+            <input type="text" name="Ciudad" placeholder="Ciudad">
+            <input type="text" name="Provincia" placeholder="Provincia">
+            <label for="Pais">Selecciones país</label>
+            <select name="Pais" id="Pais" placeholder="País">
+                <option value="España">España</option>
+                <option value="Francia">Francia</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Andorra">Andorra</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Tel">Numero de telefono</label>
+            <input type="text" name="Codigo pais" size="2" placeholder="+34">
+            <input type="tel" name="telefono" id=""placeholder="Numero de telefono">
+            <small>(Formato: 123456789)</small>
+        </div>
+        <br>
+        <div>
+            <label for="email">Datos de registro</label>
+            <br>
+            <input type="email" name="email" id="" placeholder="Dirección de email">
+            <input type="password" name="contraseña" placeholder="Contraseña">
+            <input type="password" name="rep contr" placeholder="Repita contraseña">      
+        </div>
+            <br>           
+            <div>
+            <label for="Tipo cuenta">Seleccione el tipo de cuenta</label>
+            <input type="checkbox" name="Gratuita" id="">
+                <label for="Gratuita">Gratuita</label>
+            <input type="checkbox" name="" id="">
+                <label for="Básica">Basica</label>
+            <input type="checkbox" name="Premium" id="">
+                <label for="Premium">Premium</label>                           
+            <div>                    
+                <textarea name="gratuita" id="Gratuita" cols="15" rows="6">
+                    La cuenta gratuita solo le permite almacenar 5gb.
+                </textarea>                    
+                <textarea name="Basica" id="Basica" cols="15" rows="6">
+                    La cuenta básica solo le permite almacenar 10gb.
+                </textarea>                
+                <textarea name="Premium" id="Premium" cols="15" rows="6">
+                    La cuenta premium  le permite almacenar hsta 20gb.
+                </textarea>
+            </div>
+            <div>
+                <label for="Escribe sobre ti">Escribe algo que nos quieras contar sobre ti:</label>
+                <br>
+                <textarea name="" id="" cols="15" rows="8"></textarea>
+                <br>
+                <label for="Foto">Cargue Foto</label>
+                <input type="file" name="Foto" id="Foto">
+                
+                <label for="CV">Cargue CV</label>
+                <input type="file" name="CV" id="">        
+            </div>
+            <br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
