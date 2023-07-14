@@ -1,0 +1,131 @@
+.main>div{
+    min-width: 50px;
+    min-height: 50px;
+    justify-content: space-around;
+    background-color: black;
+}
+.div {
+    margin: 2px;
+
+
+}
+.test1 {
+   margin: 10px;
+   background-color: black;
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+   border-color: blue;
+   cursor: cell;
+   
+}
+.test2 {
+    margin: 10px;
+    height: 50px; 
+    background-color: red;
+    display: inline-block;
+    cursor: crosshair;
+}
+.test3 {
+    margin: 10px;
+    height: 50px; 
+    background-color: green;
+    display: inline-block;
+    cursor: col-resize;
+}
+.test4 {
+    margin: 10px;
+    height: 50px; 
+    background-color: palevioletred;
+    display: inline-block;
+    cursor: all-scroll;
+}
+.test5 {
+    margin: 10px;
+    height: 50px; 
+    background-color: yellow;
+    display: inline-block;
+    cursor: alias;
+}
+.test6 {
+    margin: 10px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .test7 {
+     margin: 10px;
+     height: 50px; 
+     background-color: red;
+     display: inline-block;
+     border-radius: 10px;
+     cursor:e-resize;
+ }
+ .test8 {
+     margin: 10px;
+     height: 50px; 
+     background-color: green;
+     display: inline-block;
+     border-radius: 10px;
+     cursor: grab;
+ }
+ .test9 {
+     margin: 10px;
+     height: 50px; 
+     background-color: palevioletred;
+     display: inline-block;
+     border-radius: 10px;
+     cursor: grabbing;
+ }
+ .test10 {
+     margin: 10px;
+     height: 50px; 
+     background-color: yellow;
+     display: inline-block;
+     border-radius: 10px;
+     cursor: not-allowed;
+ }
+ .red1 {
+    margin: 10px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: progress;
+ }
+ .red2 {
+     margin: 10px;
+     height: 50px; 
+     background-color: red;
+     display: inline-block;
+     border-radius: 50%;
+     cursor: wait;
+ }
+ .red3 {
+     margin: 10px;
+     height: 50px; 
+     background-color: green;
+     display: inline-block;
+     border-radius: 50%;
+     cursor: zoom-in;
+ }
+.red4 {
+    margin: 10px;
+     height: 50px; 
+     background-color: palevioletred;
+     display: inline-block;
+     border-radius: 50%;
+     cursor: zoom-out;
+ }
+ .red5 {
+     margin: 10px;
+     height: 50px; 
+     background-color: yellow;
+     display: inline-block;
+     border-radius: 50%;
+     cursor: inherit;
+ }
